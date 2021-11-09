@@ -25,7 +25,9 @@ body {
     padding-right: 30px;
 }
 
+
 /* HEADER */
+
 .site-header-container {
     background-color: #f6f6f6;
 }
@@ -35,7 +37,6 @@ body {
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    
 }
 
 .site-logo {
@@ -92,8 +93,8 @@ body {
     text-decoration: none;
     color: #a6a6a6;
     font-size: 13px;
-    padding: 7px;  
-    line-height: 30px; 
+    padding: 7px;
+    line-height: 30px;
 }
 
 .language-type-active {
@@ -112,35 +113,38 @@ body {
 }
 
 .cta-link:hover {
-    opacity: 0.8;    
+    opacity: 0.8;
 }
 
 .cta-link:active {
-    opacity: 0.6;    
+    opacity: 0.6;
 }
 
 .header-navbar {
-    background-color: #fff;   
-    margin-top: 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #d1d1d1;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 
 .navbar-list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .navbar-item {
     list-style: none;
     text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .navbar-item:not(:last-child) {
-    margin-right: 34.4px;
+    margin-right: 34px;
 }
 
 .navbar-item-link {
@@ -150,20 +154,37 @@ body {
     font-weight: 500;
 }
 
-.header-navbar-line {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 40px;
-    border: 1px solid #d1d1d1;
+.navbar-item-link:hover {
+    opacity: 0.8;
+}
+
+.navbar-item-link:active {
+    opacity: 0.6;
 }
 
 .ads {
     margin-bottom: 40px;
 }
+
+.ads-img {
+    display: block;
+    width: 100%;
+}
+
+.ads-img:hover {
+    opacity: 0.8;
+}
+
+.ads-img:active {
+    opacity: 0.6;
+}
+
+
 /* /HEADER */
 
 
 /* MAIN */
+
 .top-news {
     display: flex;
     justify-content: space-between;
@@ -179,4 +200,6 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
+
 /* /MAIN */
