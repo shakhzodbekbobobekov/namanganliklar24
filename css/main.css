@@ -61,6 +61,12 @@ body {
     opacity: 0.6;
 }
 
+.global-search-form-input {
+    border: none;
+    padding: 15px 20px 13px 40px;
+    border-radius: 60px;
+}
+
 .currency {
     margin-right: auto;
 }
@@ -196,6 +202,9 @@ body {
     padding-top: 50px;
 }
 
+
+/* TOP NEWS */
+
 .news-grid {
     display: flex;
     flex-wrap: wrap;
@@ -210,6 +219,7 @@ body {
 }
 
 .news-grid-card {
+    /* background-color: #b19e9e; */
     background-color: #f6f6f6;
     display: flex;
     flex-direction: column;
@@ -292,4 +302,78 @@ body {
 }
 
 
+/* /TOP NEWS */
+
+
+/* MEMBERSHIP */
+
+.membership-container {
+    background-image: url('../images/main-images/membership-img/membership.png');
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 15px;
+}
+
+.membership-content {
+    max-width: 1050px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.membership-text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    padding: 24px 30px;
+    margin-right: auto;
+}
+
+.membership-link {
+    background-color: #f78b3b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    margin: 25px 30px;
+    padding: 13px 30px;
+}
+
+.membership-link:hover {
+    opacity: 0.8;
+}
+
+.membership-link:active {
+    opacity: 0.6;
+}
+
+
+/* /MEMBERSHIP */
+
+.вмире {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
 /* /MAIN */
+
+
+/*
