@@ -7,6 +7,10 @@
     outline: 2px dotted #2959ce;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +18,8 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    color: #4a4b4c;
+    height: 100%;
 }
 
 .container {
@@ -185,20 +191,104 @@ body {
 
 /* MAIN */
 
-.top-news {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+.main-contents {
+    flex-grow: 1;
+    padding-top: 50px;
 }
 
-.top-news__section {
-    width: 390px;
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+}
+
+.news-grid-article {
+    width: 393px;
+    padding: 20px 17px 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.news-grid-card {
     background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.news-grid-article-title {
     margin: 0;
     padding: 0;
-    margin-right: 10px;
     margin-bottom: 10px;
+}
+
+.news-grid-article-title-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease;
+}
+
+.news-grid-article-title-link:hover {
+    color: #2959ce;
+    opacity: 0.8;
+}
+
+.news-grid-article-title-link:active {
+    opacity: 0.6;
+}
+
+.news-grid-article-text {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: auto;
+}
+
+.news-grid-article-linkimg {
+    margin-top: auto;
+}
+
+.news-grid-article-img {
+    display: block;
+    width: 100%;
+}
+
+.news-grid-article-img:hover {
+    opacity: 0.8;
+}
+
+.news-grid-article-img:active {
+    opacity: 0.6;
+}
+
+.news-gird-article-footer {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.news-gird-article-footer-icon {
+    margin-right: 10px;
+}
+
+.news-gird-article-footer-text {
+    font-size: 12px;
+    color: #5E5F61;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.news-gird-article-footer-time {
+    font-size: 12px;
+    color: #5E5F61;
 }
 
 
