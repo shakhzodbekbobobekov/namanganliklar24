@@ -379,14 +379,21 @@ body {
     display: flex;
 }
 
+.world-news-left-container {
+    max-height: 880px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .world-news-left-section {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 797px;
     padding: 20px 20px 20px 17px;
     border-radius: 15px;
-    background-color: #746767;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
 }
 
 .world-news-left-section-img {
@@ -453,7 +460,31 @@ body {
     margin-right: 5px;
 }
 
-.world-news-right-section {
+.world-news-more-button {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    border: none;
+    background-color: #eaeaea;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-bottom: 34px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.world-news-more-button:hover {
+    opacity: 0.7;
+}
+
+.world-news-more-button:active {
+    opacity: 0.4;
+}
+
+
+/* right-news */
+
+.world-news-right-section-content {
     background-color: #f6f6f6;
     width: 393px;
     margin-left: 10px;
@@ -465,7 +496,7 @@ body {
 .world-news-right-section-title {
     margin: 0;
     padding: 0;
-    margin: 20px 20px 25px 17px;
+    padding: 20px 20px 25px 17px;
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
@@ -481,7 +512,7 @@ body {
     border-bottom: 1px solid #d2d2d2;
 }
 
-.world-news-right-section-card-content:not(:last-child) {
+.world-news-right-section-card-content {
     padding-bottom: 20px;
 }
 
@@ -499,8 +530,158 @@ body {
     padding: 0;
 }
 
+.world-news-right-section-ads {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
+.world-news-right-section-ads-link {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.world-news-right-section-ads-link:hover {
+    opacity: 0.8;
+}
+
+.world-news-right-section-ads-link:active {
+    opacity: 0.6;
+}
+
+.world-news-right-section-ads-link-img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    max-width: 393px;
+    width: 100%;
+    height: 338px;
+}
+/* /right-news */
 /* /WORLD NEWS */
-
-
 /* /MAIN */
+
+/* footer */
+.footer-container {
+    background-color: #7297ef; 
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-height: 356px;
+    height: 100%;
+}
+
+.top-footer {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #cecece;
+}
+
+.top-footer-content-box {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-right: 168px;
+}
+
+.top-footer-text {
+    display: block;
+    max-width: 229px;
+    width: 100%;
+    max-height: 95px;
+    height: 100%;
+}
+
+.top-footer-text {
+    color: #fff;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+    margin-top: 83px;
+    /* margin-top: ; */
+}
+
+.footer-menu:not(:last-child) {
+    margin-right: 100px;
+}
+
+.footer-menu-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 19px;
+}
+
+.footer-menu-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer-menu-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-link:hover {
+    opacity: 0.6;
+}
+
+.footer-menu-link:active {
+    opacity: 0.4;
+}
+
+/* bottom footer */
+.bottom-footer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.bottom-footer-title {
+    max-width: 160px;
+    width: 100%;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #fff;
+}
+
+.bottom-footer-internet-link {
+    display: flex;
+}
+
+.bottom-footer-internet-icon {
+    list-style: none;
+}
+
+.bottom-footer-internet-icon:not(:last-child) {
+    margin-right: 25px;
+}
+
+.bottom-footer-internet-icon-item {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-footer-internet-icon-item:hover {
+    opacity: 0.6;
+}
+
+.bottom-footer-internet-icon-item:active {
+    opacity: 0.4;
+}
+
+
+/* /bottom footer */
+/* /footer */
